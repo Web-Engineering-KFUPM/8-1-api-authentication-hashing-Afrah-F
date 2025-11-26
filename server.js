@@ -239,7 +239,7 @@ const jwt = require("jsonwebtoken");
 
 const app = express();
 const PORT = 3000;
-const JWT_SECRET = "abc123"; // لا تغيّره عشان اللاب ينجح
+const JWT_SECRET = "abc123";
 
 app.use(express.json());
 
